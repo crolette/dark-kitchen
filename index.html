@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dark Kitchen</title>
+		<script src="https://kit.fontawesome.com/6cf87d1226.js" crossorigin="anonymous"></script>
+		<script type="module" crossorigin src="/my-assets/main-DJ7prTxG.js"></script>
+		<link rel="stylesheet" crossorigin href="/my-assets/main-8tkly8ew.css">
+	</head>
+	<body>
+		<header>
+			<div class='container'>
+				<div class='header__top'>
+					<p class='header__title'>Dark Kitchen</p>
+					<div>
+		
+					<label for="theme">Dark/Light mode</label>
+					<input type='checkbox' name='theme_switch' id="theme"/>
+					</div>
+				</div>
+				<div class='header__form'>
+					<form action=''>
+		
+		                <div class="form__inputs">
+		                <label for="type-dish">Search a type of dish:</label>
+						<select name='type-dish' id='type-dish'>
+							<option value='all'>-</option>
+							<option value='meat'>Meat</option>
+							<option value='salad'>Salad</option>
+							<option value='healthy'>Healthy</option>
+							<option value='fish'>Fish</option>
+							<option value='vegan'>Vegan</option>
+							<option value='kids'>Kids</option>
+							<option value='pasta'>Pasta</option>
+						</select>
+		                </div>
+					</form>
+				</div>
+			</div>
+		
+		</header>
+
+		<main>
+			<div class='container'>
+				<h1>Dark Kitchen</h1>
+			</div>
+			<div class='container'>
+				<section class='dishes'>
+					<article
+						class='dishes__card'
+						data-dish-type='meat pasta'
+						title='Pasta bolognese'
+						data-dish-title='pasta-bolognese'
+						data-dish-price='20'
+					>
+						<div class='card__image'>
+							<img src='/my-assets/bolognese-Ct6rVyav.jpeg' alt='' />
+						</div>
+						<div class='card__content'>
+							<h3>Pasta bolognese</h3>
+							<p class='card__price'>20 €</p>
+							<div class='card__tags'>
+								<span class='card__tag card__tag--meat'>meat</span><span
+									class='card__tag card__tag--pasta'
+								>pasta</span>
+							</div>
+							<a class='card__btn' href=''>Add to cart</a>
+						</div>
+					</article>
+		
+					<article
+						class='dishes__card'
+						data-dish-type='meat'
+						title='Boulet Liegeois'
+						data-dish-title='boulets-liegeois'
+						data-dish-price='16'
+					>
+						<div class='card__image'>
+							<img src='/my-assets/boulets-liegeoise-CH4i1dW3.jpeg' alt='' />
+						</div>
+						<div class='card__content'>
+							<h3>Boulets liegeois</h3>
+							<p class='card__price'>16 €</p>
+							<div class='card__tags'>
+								<span class='card__tag card__tag--meat'>meat</span>
+							</div>
+							<a class='card__btn' href=''>Add to cart</a>
+						</div>
+					</article>
+					<article
+						class='dishes__card'
+						data-dish-type='meat'
+						title='Steak Kobe'
+						data-dish-title='steak-kobe'
+						data-dish-price='35'
+					>
+						<div class='card__image'>
+							<img src='/my-assets/steak-CqFAEjH0.jpeg' alt='' />
+						</div>
+						<div class='card__content'>
+							<h3>Kobe avec patates douces</h3>
+							<p class='card__price'>35 €</p>
+							<div class='card__tags'>
+								<span class='card__tag card__tag--meat'>meat</span>
+							</div>
+							<a class='card__btn' href=''>Add to cart</a>
+						</div>
+					</article>
+					<article
+						class='dishes__card'
+						data-dish-type='healthy'
+						title='Poke Bowl'
+						data-dish-title='poke-bowl'
+						data-dish-price='18'
+					>
+						<div class='card__image'>
+							<img src='/my-assets/poke-Kan3mL1Q.jpeg' alt='' />
+						</div>
+						<div class='card__content'>
+							<h3>Poke Bowl</h3>
+							<p class='card__price'>18 €</p>
+							<div class='card__tags'>
+								<span class='card__tag card__tag--healthy'>healthy</span>
+							</div>
+							<a class='card__btn' href=''>Add to cart</a>
+						</div>
+					</article>
+					
+					<article
+						class='dishes__card'
+						data-dish-type='fish healthy'
+						title='Saumon Gravlax'
+						data-dish-title='saumon-gravlax'
+						data-dish-price='15'
+					>
+						<div class='card__image'>
+							<img src='/my-assets/saumon-D7NUs5sp.jpeg' alt='' />
+						</div>
+						<div class='card__content'>
+							<h3>Saumon Gravlax</h3>
+							<p class='card__price'>15 €</p>
+							<div class='card__tags'>
+								<span class='card__tag card__tag--fish'>fish</span><span
+									class='card__tag card__tag--healthy'
+								>healthy</span>
+							</div>
+							<a class='card__btn' href=''>Add to cart</a>
+						</div>
+					</article>
+					<article
+						class='dishes__card'
+						data-dish-type='vegan healthy'
+						title='Vegan Shit'
+						data-dish-title='vegan-shit'
+						data-dish-price='19'
+					>
+						<div class='card__image'>
+							<img src='/my-assets/vegan-58-uIj5R.jpeg' alt='' />
+						</div>
+						<div class='card__content'>
+							<h3>Vegan shit</h3>
+							<p class='card__price'>19 €</p>
+							<div class='card__tags'>
+								<span class='card__tag card__tag--vegan'>vegan</span><span
+									class='card__tag card__tag--healthy'
+								>healthy</span>
+							</div>
+							<a class='card__btn' href=''>Add to cart</a>
+						</div>
+					</article>
+					<article
+						class='dishes__card'
+						data-dish-type='fish kids'
+						title='Fish Stick'
+						data-dish-title='fish stick'
+						data-dish-price='12'
+					>
+						<div class='card__image'>
+							<img src='/my-assets/fish-stick-BE1boBu3.jpeg' alt='' />
+						</div>
+						<div class='card__content'>
+							<h3>Fish stick</h3>
+							<p class='card__price'>12 €</p>
+							<div class='card__tags'>
+								<span class='card__tag card__tag--kids'>kids</span><span
+									class='card__tag card__tag--fish'
+								>fish</span>
+							</div>
+							<a class='card__btn' href=''>Add to cart</a>
+						</div>
+					</article>
+				</section>
+			</div>
+		</main>		<div class='cart'>
+			<table class='cart__items' id='cart__items'>
+				<thead>
+					<tr class='cart__titles' id='cart__titles'>
+						<th>Dish</th>
+						<th>Qty</th>
+						<th>Total</th>
+		                <th></th>
+					</tr>
+				</thead>
+				<tbody>
+		            
+				</tbody>
+				<tfoot>
+					<tr class='cart__delivery cart__delivery--free' id='cart__delivery'>
+						<td >Delivery</td>
+						<td></td>
+						<td cart-total-delivery='0'>FREE</td>
+					</tr>
+					<tr class='cart__total' id='cart__total'>
+						<td ><a href="" class="cart__checkout">Checkout</a></td>
+						<td>Total</td>
+						<td cart-total=''></td>
+						<td></td>
+					</tr>
+				</tfoot>
+				
+			</table>
+			<div class='cart__menu' id='icon__cart'>
+				<i class='fa-solid fa-cart-shopping cart__icon--menu'></i>
+				<span class='cart__qty'  data-qty-dishes="0">0</span>
+			</div>
+			
+		
+		</div>
+		<footer>
+		    <div class="container">
+		
+		    Footer
+		    </div>
+		</footer>	</body>
+</html>
